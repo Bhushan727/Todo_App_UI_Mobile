@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a63fe4d6b6.js" crossorigin="anonymous"></script>
+    <title>Add New Todo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .blured{
+             filter: blur(10px);
+                    
+        }
+        .contained{
+            position: absolute;
+            filter: opacity(100);
+            background-color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+
+
+    <div class="blured">
+
+        <div class="container">
+
+            <div class="heading">
+                <div class="star" id="lefty">
+                   <a href="index.html" class="links">
+                    <i class="fas fa-arrow-circle-left" style="color:red ;"></i><span class="hid"> Back</span>
+                   </a>
+                </div>
+                <div class="star" id="righty">
+                  Trip to Paris
+                </div>
+            </div>
+            <div class="conts">
+                <div class="cards1" id="item2">
+                    <h1 class="cardhed">My Todo List 2</h1>
+                   <div class="cont1">
+                        <hr class="line">
+                        <p class="strk1">Completed task</p>
+                        <p class="check1">
+                            <input type="checkbox">&nbsp; Pending Task
+                        </p>
+                        <a href="newitem.html" class="plus">
+                            <i class="fas fa-plus-circle" id="corner" style="color:red ;"></i>
+                        </a>
+                   </div>
+    
+                </div>
+            </div>
+    
+        </div>
+
+        
+    </div>
+    <div class="contained">
+        <div class="heads1">
+            Add New Todo
+        </div>
+        <div class="entry" >
+           
+        </div>
+        <button class="add">
+            ADD
+        </button>
+    </div>
+</body>
+</html>

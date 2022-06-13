@@ -1,0 +1,317 @@
+.container{
+    width: 80%;
+    position: relative;
+    
+    height: 80vh;
+    margin: auto;
+    margin-top: 5%;
+    font-family:roboto,sans-serif;
+}
+
+.heads{
+    width: 100%;
+    height: 20%;
+   
+ 
+    justify-content:space-around;
+   
+}
+
+.star{
+    font-size:xx-large;
+}
+.high{
+    font-size: 40px;
+    font-weight:900;
+}
+
+
+#lefty{
+    float: left;
+    margin-left: 10px;
+    margin-top: 4%;
+}
+#righty{
+    float: right;
+    margin-right: 10px;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards{
+    width: 20%;
+    height: 300px;
+    border: 1px solid crimson;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 20px black;
+    position: relative;
+}
+
+.cardhed{
+    font-size: x-large;
+    margin-left: 8%;
+    font-weight: lighter;
+    color: crimson;
+}
+
+.line{
+    margin-left: 15px;
+}
+
+.strk{
+    text-decoration: line-through;
+    font-size: larger;
+    color: red;
+    margin-left: 12%;
+    margin-top: 30px;
+
+}
+
+.check{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.links{
+    text-decoration: none;
+}
+
+
+
+
+/*styles for page of trip to paris*/
+     
+
+.heading{
+
+    width: 100%;
+    height: 15%;
+  
+}
+
+
+.conts{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cards1{
+    width: 30%;
+    height: 300px;
+    border: 1px solid crimson;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 20px black;
+    position: relative;
+}
+
+.strk1{
+    text-decoration: line-through;
+    font-size: larger;
+    color: red;
+    margin-left: 12%;
+    margin-top: 30px;
+
+}
+
+.check1{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+
+.plus{
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: xx-large;
+
+}
+
+
+
+
+
+
+
+/* styles for new item popup     */
+
+.contained{
+
+    width: 30%;
+    height: 30vh;
+    border: 1.5px solid crimson;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    top: 200px;
+    box-shadow: 5px 5px 20px black;
+    text-align: center;
+    font-family: roboto ,sans-serif;
+
+}
+
+.heads1{
+    font-size: x-large;
+    margin-top: 10%;
+    color: crimson;
+   
+}
+
+.entry{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    height: 25px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.add{
+
+    background-color: crimson;
+    border: none;
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width:580px) and (max-width: 910px){
+
+    .visi{
+        display: none;
+    }
+
+    .strk{
+
+        margin-left: 0;
+    }
+
+    .check{
+        margin-left: 0;
+    }
+
+    .main{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .cards1{
+        width: 50%;
+    }
+
+    #righty{
+        float: inline-start;
+    }
+
+
+    .hid{
+        display: none;
+    }
+
+    .contained{
+        width: 50%;
+        left: 25%;
+
+    }
+    
+}
+
+
+@media screen and (max-width:579px) 
+{
+
+    .container{
+        width: 90%;
+       
+        height: 90vh;
+        margin: auto;
+        margin-right: 15px;
+        margin-top: 5%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .heads{
+        width: 90%;
+        margin: auto;
+        height: 60px;
+
+
+    }
+
+    .star{
+        font-size: xx-large;
+        margin: auto;
+    }   
+    
+    .visi{
+        display: none;
+    }
+
+    #righty{
+        float: right;
+        margin-right: 15px;
+       
+        margin-top: 7%;
+    }
+
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        width: 90%;
+        height: 50px;
+        overflow: hidden;
+        
+        
+
+    }
+
+    .cardhed{
+        color: black;
+    }
+    .cont{
+        display: none;
+    }
+
+     .cards1{
+        width: 50%;
+    }
+
+    .hid{
+        display: none;
+    }
+
+
+    .contained{
+
+        width: 70%;
+        left: 15%;
+    }
+
+
+
+}
